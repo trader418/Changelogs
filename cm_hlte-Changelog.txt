@@ -1,0 +1,126 @@
+====================
+     07-10-2016
+====================
+
+
+====================
+     07-09-2016
+====================
+
+
+   * android/
+69a9c57 Merge branch 'cm-12.1' of https://github.com/CyanogenMod/android into cm-12.1
+19fd0b0 default.xml: Branch out external/conscrypy and external/jhead for security mantainance
+
+   * build/
+aa4d79a Updating security string to 2016-07-01
+
+   * dalvik/
+f01dac7 Fix potential buffer overrun.
+
+   * external/bluetooth/bluedroid/
+b54322d Merge branch 'cm-12.1' of https://github.com/CyanogenMod/android_external_bluetooth_bluedroid into cm-12.1
+f2e0de1 BT: Update calls to sBtInterface
+ddb0fb9 DO NOT MERGE btif: check overflow on create_pbuf size
+2bd881e Add guest mode functionality (2/3)
+
+   * external/libpng/
+facf1c4 Merge branch 'cm-12.1' of github.com:CyanogenMod/android_external_libpng into cm-12.1
+aeddf70 DO NOT MERGE Update libpng to 1.6.20
+
+   * external/openssl/
+8e78194 Check that we have enough padding characters.
+7dd91db Fix encoding bug in i2c_ASN1_INTEGER
+
+   * external/sepolicy/
+044f72c Merge branch 'cm-12.1' of github.com:CyanogenMod/android_external_sepolicy into cm-12.1
+5eba1de Remove generic socket access from untrusted processes
+
+   * external/tremolo/
+4151e3f Check partword is in range for # of partitions
+
+   * frameworks/av/
+c10b95b Merge branch 'cm-12.1' of git://github.com/CyanogenMod/android_frameworks_av into cm-12.1
+4b6ef5c MPEG4Extractor: ensure kKeyTrackID exists before creating an MPEG4Source as track.
+b262a61 Check malloc result to avoid NPD
+55dadcd limit mediaserver memory
+8298230 h264bsdActivateParamSets: Prevent multiplication overflow.
+8851a9d Fix security vulnerability in libstagefright
+6ffe4d2 Clear unused pointer field when sending across binder
+
+   * frameworks/base/
+a6d268c DO NOT MERGE : backport of backup transport whitelist
+77e6ab1 Don't pass URL path and username/password to PAC scripts
+fa00fca Automatic translation import
+
+   * frameworks/native/
+767960a Merge branch 'cm-12.1' of git://github.com/CyanogenMod/android_frameworks_native into cm-12.1
+b92977d Correctly handle dup() failure in Parcel::readNativeHandle
+
+   * hardware/libhardware/
+1974329 Merge branch 'cm-12.1' of github.com:CyanogenMod/android_hardware_libhardware into cm-12.1
+ebebabf Add guest mode functionality (1/3)
+
+   * hardware/qcom/audio-caf/msm8916/
+0ff3f4c DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/audio-caf/msm8974/
+f5a1842 DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/audio-caf/msm8994/
+f6ed9ad DO NOT MERGE Fix AudioEffect reply overflow
+
+   * hardware/qcom/audio/default/
+030a173 DO NOT MERGE Fix AudioEffect reply overflow
+
+   * packages/apps/Bluetooth/
+ad170b5 Merge branch 'cm-12.1' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-12.1
+59bcdd4 Add guest mode functionality (3/3)
+
+   * packages/apps/Calendar/
+96dcfb2 Merge branch 'cm-12.1' of github.com:CyanogenMod/android_packages_apps_Calendar into cm-12.1
+
+   * packages/apps/Contacts/
+c92338f Merge branch 'cm-12.1' of github.com:CyanogenMod/android_packages_apps_Contacts into cm-12.1
+
+   * packages/apps/ContactsCommon/
+1ef925e Merge branch 'cm-12.1' of github.com:CyanogenMod/android_packages_apps_ContactsCommon into cm-12.1
+
+   * packages/apps/Dialer/
+4eff185 Merge branch 'cm-12.1' of https://github.com/CyanogenMod/android_packages_apps_Dialer into cm-12.1
+
+   * packages/apps/Mms/
+1e5c355 Merge branch 'cm-12.1' of https://github.com/CyanogenMod/android_packages_apps_Mms-caf into cm-12.1
+
+   * packages/apps/Nfc/
+10b6068 Merge branch 'cm-12.1' of github.com:CyanogenMod/android_packages_apps_Nfc into cm-12.1
+78c52d5 Verify setForegroundDispatch caller is in foreground.
+
+   * packages/apps/Settings/
+5068b92 Build V19.6 - July 2016 Security updates
+
+   * packages/providers/DownloadProvider/
+faca39d Merge branch 'cm-12.1' of github.com:CyanogenMod/android_packages_providers_DownloadProvider into cm-12.1
+
+   * packages/services/Telephony/
+7b16467 Merge branch 'cm-12.1' of https://github.com/CyanogenMod/android_packages_services_Telephony into cm-12.1
+
+   * system/core/
+daeb23e Merge branch 'cm-12.1' of github.com:CyanogenMod/android_system_core into cm-12.1
+31f14de Fix scanf %s in lsof.
+
+====================
+     07-08-2016
+====================
+
+
+====================
+     07-07-2016
+====================
+
+
+====================
+     07-06-2016
+====================
+
+
