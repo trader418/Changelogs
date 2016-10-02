@@ -1,139 +1,133 @@
 ====================
-     09-06-2016
+     09-16-2016
 ====================
 
 
-   * frameworks/av/
-7ada150 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_av into cm-13.0
-
-   * frameworks/base/
-895bc56 connectivity-service: fix/improve unique hostname
-8d59b7e Ensure DHCP requests have nonempty hostnames
-b80766b Automatic translation import
-79b50cc SystemUI: Don't pad when config_showScreenOnLockScreenHints is false
-2d73f8d Themes: Give power dialogs own set of volume icons for themes
-
-   * hardware/samsung/
-aca81b8 Automatic translation import
-
-   * packages/apps/Bluetooth/
-60ec73f Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
-
-   * packages/apps/BluetoothExt/
-bc412a4 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_BluetoothExt into cm-13.0
-
-   * packages/apps/CellBroadcastReceiver/
-e6f25db Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
-
-   * packages/apps/Contacts/
-2b8c0fc Automatic translation import
-
-   * packages/apps/ContactsCommon/
-157ebc5 Automatic translation import
-
-   * packages/apps/DeskClock/
-fe9b389 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
-
-   * packages/apps/Dialer/
-c4d051b Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
-
-   * packages/apps/InCallUI/
-635c117 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
-
-   * packages/apps/PackageInstaller/
-5082f65 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_PackageInstaller into cm-13.0
-
-   * packages/apps/PhoneCommon/
-45baa41 Automatic translation import
+   * packages/apps/Messaging/
+4c2dbcc Revert "Add maps preview for addresses and integrate ridesharing request into Messaging"
+2d4c923 Revert "Add don't optimize flag in proguard to avoid build error"
+04d1a0d Revert "Fix getProviderInfo compile error after api change"
+85af6a4 Revert "Adjust map and map bar UX"
 
    * packages/apps/Settings/
-656c119 Automatic translation import
+a4c13de V12.1
+
+====================
+     09-15-2016
+====================
+
+
+   * packages/themes/HexoLibre/
+b0003f4 Fix eject SD card icon being too dark
+f433d8a Update device settings theme and theme CMUpdater
+
+====================
+     09-14-2016
+====================
+
+
+   * hardware/qcom/audio-caf/msm8974/
+4c9949d audio: set voice call volume step by property
+
+   * packages/apps/CellBroadcastReceiver/
+3b6d497 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
+
+   * packages/apps/DeskClock/
+3eb5b00 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
+
+   * packages/apps/InCallUI/
+fbab648 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+
+   * packages/apps/Messaging/
+c0de5d0 Adjust map and map bar UX
+435f3e7 Fix getProviderInfo compile error after api change
+6da984a Add don't optimize flag in proguard to avoid build error
+1a3b89e Add maps preview for addresses and integrate ridesharing request into Messaging
 
    * packages/apps/SetupWizard/
-be843af Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
-
-   * packages/apps/ThemeChooser/
-fa08a0a Remove BootReceiver
-
-   * packages/inputmethods/LatinIME/
-c89961d Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_inputmethods_LatinIME into cm-13.0
-
-   * packages/providers/ContactsProvider/
-d7c5c31 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_ContactsProvider into cm-13.0
-
-   * packages/providers/MediaProvider/
-284243b Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_MediaProvider into cm-13.0
-
-   * packages/providers/TelephonyProvider/
-6847767 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
-
-   * packages/services/Telecomm/
-2b77275 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
+5313e15 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
 
    * packages/services/Telephony/
-1ee7d7b Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
+ae2404e Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
 
    * system/core/
-b47e160 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
-
-   * vendor/cm/
-5aedb8f Merge branch 'cm-13.0' of github.com:CyanogenMod/android_vendor_cm into cm-13.0
+0b79976 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
 
 ====================
-     09-05-2016
+     09-13-2016
 ====================
 
 
-   * packages/apps/AudioFX/
-d4ff380 AudioFX: Resync with AOSP translations
+   * android/
+49a67b1 default.xml: cm: Update to 6.0.1_r66
 
-   * packages/apps/ThemeChooser/
-3f9abe2 Capitalize app name
-78efee5 String updates
-2587e7f Fix line wrapping for crowdin
+   * build/
+0928537 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
 
-====================
-     09-04-2016
-====================
+   * frameworks/av/
+7b73480 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_av into cm-13.0
 
+   * frameworks/base/
+db88e29 Automatic translation import
 
-   * device/samsung/qcom-common/
-866a226 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_device_samsung_qcom-common into cm-13.0
+   * frameworks/native/
+d076473 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_native into cm-13.0
 
    * frameworks/opt/telephony/
-efc050c Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+bb5bfe5 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_telephony into cm-13.0
 
-   * packages/apps/Gallery2/
-0304394 Gallery2: Fix no android.permission.INTERACT_ACROSS_USERS in guest mode.
+   * libcore/
+8dc8a10 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_libcore into cm-13.0
+
+   * packages/apps/Dialer/
+07be50b Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
 
    * packages/apps/Snap/
-bbcb6f2 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Snap into cm-13.0
+07e7d9f Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Snap into cm-13.0
 
-   * packages/apps/ThemeChooser/
-f40ac25 Move actions in theme card to overflow menu
+   * packages/themes/HexoLibre/
+4d602a8 Theme new Theme Chooser icon
 
    * vendor/cm/
-756ec88 cm: charger: Center capacity and vertical offset
+caea5bc Merge branch 'cm-13.0' of github.com:CyanogenMod/android_vendor_cm into cm-13.0
 
    * vendor/cmsdk/
-0e4f53d Automatic translation import
-8700527 cmsdk: fix visible check in hasChanged
-
-   * vendor/samsung/
-aee9c49 Merge branch 'cm-13.0' of github.com:TheMuppets/proprietary_vendor_samsung into cm-13.0
+77f0f34 Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
 
 ====================
-     09-03-2016
+     09-12-2016
 ====================
 
 
-   * frameworks/opt/telephony/
-4092816 Telephony: fix SMS NPE
+   * device/samsung/hltevzw/
+fab165d Update device.mk
+
+   * frameworks/av/
+3f6bb68 libcameraservice: Don't pass NULL args on setCallbacks call
+
+   * hardware/qcom/audio-caf/msm8937/
+543e8fa msm8937: policy_hal: Don't fill in offload information for unsupported streams
+
+   * packages/apps/AudioFX/
+d6b01bb Merge "Automatic translation import" into cm-13.0
+
+   * packages/apps/CMBugReport/
+f384085 Automatic translation import
+
+   * packages/apps/CMFileManager/
+9ba3d97 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+fb97d9a Automatic translation import
 
    * packages/apps/ThemeChooser/
-7e4390f ThemeChooser: set untranslatable
+b266a27 Automatic translation import
 
-====================
-     09-02-2016
-====================
+   * packages/providers/WeatherProvider/
+4a176fd Automatic translation import
 
+   * packages/services/CMAudioService/
+fe7240b Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+3cf4e1c Automatic translation import
