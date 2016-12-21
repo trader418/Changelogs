@@ -1,165 +1,351 @@
 ====================
-     10-18-2016
-====================
-
-
-   * packages/apps/Settings/
-9aa3e29 Fix derp
-
-====================
-     10-17-2016
-====================
-
-
-====================
-     10-16-2016
+     12-20-2016
 ====================
 
 
    * android/
-8e1a8d8 r72
+bcf1c9a R74
 
    * build/
-c5b8088 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_build into cm-13.0
+e8bca0b Merge branch 'cm-13.0' of github.com:CyanogenMod/android_build into cm-13.0
+
+   * device/samsung/hlte/
+d33b3b4 trader418 unofficial build tag
+
+   * external/sepolicy/
+33c9545 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_external_sepolicy into cm-13.0
 
    * frameworks/av/
-893bc04 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_av into cm-13.0
+33c0820 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_av into cm-13.0
 
    * frameworks/base/
-d137ab6 Fix volume keys wakeup status handling
-02361da Merge tag 'android-6.0.1_r72' into HEAD
-88fb400 bootanim: Allow configurable rescaling
-803ba98 bootanimation: Fix preload of shutdown & themed animations
-7aefdec SysUI: Don't set panel bar to null and avoid NPEs
+732f574 Fix Missmerge
+84793ea Automatic translation import
+205d793 Automatic translation import
+51a40ad Automatic translation import
+6baf3f7 Automatic translation import
+7ba233d Support for MODE_ASK in commandline
+9de7f18 AppOps: Do not prune apps that are not present
+fecb05b Automatic translation import
+a7681cc Automatic translation import
+8bcfc30 Themes: Don't cache explicitly themed resources
+bd463c10 Build: use UserHandle.isApp for M compatibility
+50b281f Make Build.TYPE and Build.FINGERPRINT consistent for apps.
+90fb579 zygote: Allow device to append extra whitelisted paths
+684b689 SettingsLib: Fix possible NPEs
+23c8bc7 zygote: Add /proc/ged to the FD whitelist
+9c46d60 frameworks/base: Addition of Changes for ZeroBalance feature
+1f66eac NotificationManager: Concentrate LED light capabilities at a single location
+4cfce52 Add CMSDK resource APK to Zygote FD whitelist
+6c19ed4 am: Fix mismerge
+ed534cb Merge tag 'android-6.0.1_r74' into HEAD
+b0139edc batteryservice: Remove remnants of CAF's HVDCP changes
+3df5a72 SystemUI: Fix possible NPE
+9d3152b services: battery: Don't blink with an hvdcp charger
+40e4d57 bootanimation: enable multithread decode by default
 
-   * frameworks/native/
-2e318d2 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_native into cm-13.0
+   * frameworks/opt/net/wifi/
+e2cbb0d Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_net_wifi into cm-13.0
 
    * frameworks/opt/telephony/
-12013fa Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+47ca431 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_frameworks_opt_telephony into cm-13.0
+
+   * kernel/samsung/hlte/
+b8f5359 trader418 fork && v1.9
+57329a5 packet: fix race condition in packet_set_ring
+8db8b59 ion: disable system contig heap
+4f8b1d8 sg: Fix double-free when drives detach during SG_IO
+1d4d43d perf: Fix race in swevent hash
+5896e4a lib/int_sqrt.c: optimize square root algorithm
+222f292 mm: remove gup_flags FOLL_WRITE games from __get_user_pages()
+114e4d1 KEYS: Fix short sprintf buffer in /proc/keys show function
+67f3d78 fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE
+9c39e0f binder: prevent kptr leak by using %pK format specifier
+57cf933 tcp: fix use after free in tcp_xmit_retransmit_queue()
 
    * libcore/
-c1c91c7 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_libcore into cm-13.0
+6c461ec Merge branch 'cm-13.0' of github.com:CyanogenMod/android_libcore into cm-13.0
 
    * packages/apps/Bluetooth/
-a4f5f39 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
+0af7f7e Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Bluetooth into cm-13.0
 
    * packages/apps/BluetoothExt/
-ded8bc7 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_BluetoothExt into cm-13.0
+672b8c7 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_BluetoothExt into cm-13.0
 
    * packages/apps/CellBroadcastReceiver/
-bc02fd2 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
+b044add Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_CellBroadcastReceiver into cm-13.0
 
    * packages/apps/Contacts/
-0e0a76d Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Contacts into cm-13.0
+7d88336 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Contacts into cm-13.0
 
    * packages/apps/ContactsCommon/
-59e523b Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_ContactsCommon into cm-13.0
+b54745e Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_ContactsCommon into cm-13.0
 
    * packages/apps/DeskClock/
-0419f6f Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_DeskClock into cm-13.0
+8a364b7 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_DeskClock into cm-13.0
 
    * packages/apps/Dialer/
-65067ff Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_Dialer into cm-13.0
+6344a37 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Dialer into cm-13.0
 
    * packages/apps/InCallUI/
-ed1d309 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_InCallUI into cm-13.0
+8336b6f Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_InCallUI into cm-13.0
 
-   * packages/apps/PackageInstaller/
-ed5a3e2 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_PackageInstaller into cm-13.0
+   * packages/apps/Messaging/
+f79a1e1 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Messaging into cm-13.0
 
    * packages/apps/PhoneCommon/
-06813e6 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_PhoneCommon into cm-13.0
+f3a7368 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_PhoneCommon into cm-13.0
 
    * packages/apps/Settings/
-80e3020 v12.2 && r72
+d2f21fa Revert "Add setup UI for minimum delay between an app's notification sounds."
+842692e 12.3 && r74
+982828e DataUsageUtils: Clean up based on code review
+9ac3bc3 telephony: Disable the SIM state change receiver
+98a0376 NotificationLightSettings: Remove noop fields when LED can't pulse
+2243839 Settings: Hide Reset action if Battery LED is not multicolor
+12efe18 Settings: Make proximity wake string more accurate
+099dd55 lights: Use NotificationManager to figure out LED capabilities
+55a5910 SecuritySettings: Fix KeyStore related NPE's
+d91d8d6 Add setup UI for minimum delay between an app's notification sounds.
+a323857 Allow selecting vibration mode during zen priority mode.
+911404c Settings: Apn: Don't dereference a null mSubscriptionInfo
+48f518f Settings: display: Fix search indexing of high touch sensitivity
+acafb3f Settings: Update contributors cloud DB
+6ece6f1 Settings: Fix possible NPE
+9251c6e Settings: Notification light: Fix for app customization
 
    * packages/apps/SetupWizard/
-fa57856 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
+85bca22 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_SetupWizard into cm-13.0
 
    * packages/apps/Snap/
-72978b2 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_apps_Snap into cm-13.0
+64ee9ab Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_apps_Snap into cm-13.0
 
    * packages/inputmethods/LatinIME/
-1f8315e Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_inputmethods_LatinIME into cm-13.0
-
-   * packages/providers/ContactsProvider/
-ac57517 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_ContactsProvider into cm-13.0
-
-   * packages/providers/MediaProvider/
-1e27ba3 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_MediaProvider into cm-13.0
+dbde183 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_inputmethods_LatinIME into cm-13.0
 
    * packages/providers/TelephonyProvider/
-cf7f1e8 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
+1986977 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_providers_TelephonyProvider into cm-13.0
 
    * packages/services/Telecomm/
-58bb5ad Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
+34302d3 Revert "Honor option to allow vibration during priority zen mode."
+0296b54 Revert "Adapt test to API changes."
+82fdacc Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telecomm into cm-13.0
 
    * packages/services/Telephony/
-d58bd7b Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_packages_services_Telephony into cm-13.0
+45bf6a2 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_packages_services_Telephony into cm-13.0
 
    * system/core/
-74a4438 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_system_core into cm-13.0
+1edec32 Merge branch 'cm-13.0' of github.com:CyanogenMod/android_system_core into cm-13.0
 
    * vendor/cm/
-57d2149 cm: changelog: Update changelog for 13.0 releases
-ef69c82 charger: Use the same metrics as recovery to pick a density
-10321a3 Gello artifact v40
-264c067 extract_utils: Do not change app SRC if there are arguments
-acdf8ae version: Set version string to 13.0.3 to reflect security update
-e789228 Contributors: Add maintainer for Alcatel Idol 3
-50f6755 Added contributors for vegetalte
-de101ef themes: allow system_server to relabel them dir
-fb18f76 Gello artifact v37
-0f51da7 Contributors: Add maintainers for BQ Aquaris M5 (piccolo)
-a8d53d4 increment ambientsdk version
+02ede0f apns: Update hollandsnieuwe's (NL) APN
+dba3c74 Add Reliance Jio India IMS volte apn's
+c7bf3e3 version: Set version string to 13.0.5 to reflect security update
+a268fbe Fix Reliance Jio India APNs.
+8d054c4 vendor: cm: Add some more BQ maintainers/devices
+dda1011 Contributors: Add maintainer for Xiaomi Redmi 3/Prime (ido)
+4c44ad7 cm: Add more Mi 5 maintainers
+1d91a24 Contributors: Add Xiaomi Mi 5 maintainer
+7ccfc0b config: common: Remove obsolete RomManager props
+3b6c498 apns: Remove loop and bpl mobile
+4b3193c apns: Add Reliance Jio APNs
+b35a442 vendor_cm: Vodafone TR: Fix mobile data on first boot
+fe56784 Fix Truphone APN
+7aacd63 Add a new APN for new mcc/mnc assigned to Truphone
+e0e3a65 version: Set version string to 13.0.4 to reflect security update
+9ace8bd extract_utils: Add option to define the certificate for jars
+d533b31 Update apns
 
    * vendor/cmsdk/
-6402e01 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/cm_platform_sdk into cm-13.0
-
-   * vendor/samsung/
-4d91bf5 Merge branch 'cm-13.0' of github.com:TheMuppets/proprietary_vendor_samsung into cm-13.0
+2c052d5 Merge branch 'cm-13.0' of github.com:CyanogenMod/cm_platform_sdk into cm-13.0
 
 ====================
-     10-15-2016
+     12-19-2016
 ====================
 
 
-   * cts/
-025f272 merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
-4e088d1 Merge "DO NOT MERGE CTS 6.0_R12 release (Bump version to 6.0_r12)" into marshmallow-cts-dev
-5ea0e68 DO NOT MERGE CTS 6.0_R12 release (Bump version to 6.0_r12)
-cf34156 Merge "Add frame-rate requirement to MediaFormat used to find matched encoder" into marshmallow-cts-dev
-8ab6120 Merge "Make tests wait correctly for Drawing to complete." into marshmallow-cts-dev
-dcb813f Merge "Extend wait time for testTRacingContent" into marshmallow-cts-dev
-4e9a160 Merge "ConnectivityConstraintTest: Fix wifi state check in tearDown()" into marshmallow-cts-dev
-1b85293 Merge "Document waiver for testKeyStore_..._Params_Unencrypted_Failure" into marshmallow-cts-dev
-8493b7c Merge "Remove failure check for NV21" into marshmallow-cts-dev
-aacf3fe Merge "Add support to Conditionalized Tests to CTS Verifier using annotations." into marshmallow-cts-dev
-a9d0317 Merge "Make sure telecom settings intents are handled" into marshmallow-cts-dev
-c0dd017 Merge "fix null pointer exception for filesystemperf" into marshmallow-cts-dev
-958f2a8 Merge "Fix for testPlayStreamData" into marshmallow-cts-dev
-6eeff52 Merge "Add CTS test for CVE-2015-6608 This test verifies whether a m4a file limits the memory usage during decode media" into marshmallow-cts-dev
+   * packages/apps/Snap/
+de52be2 Automatic translation import
 
-   * vendor/samsung/
-64cf03f Merge pull request #867 from OzzysCmAcc/cm-13.0-klte
-9e0b9be Merge pull request #866 from RGIB/cm-13.0
-b498662 klte-common: update blobs from mm package
-2dddba4 kona : latest wifi drivers
+   * packages/apps/SoundRecorder/
+d71aea5 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+4d5fd9b Automatic translation import
+
+   * packages/apps/TvSettings/
+95ee086 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+03432df Automatic translation import
+
+   * packages/providers/DownloadProvider/
+cc21663 Automatic translation import
+
+   * packages/providers/WeatherProvider/
+8205176 Automatic translation import
+
+   * packages/screensavers/PhotoTable/
+0d70dda Automatic translation import
+
+   * packages/services/CMAudioService/
+d5dee81 Automatic translation import
+
+   * packages/services/LiveLockScreenService/
+4acf97a Automatic translation import
+
+   * packages/services/Telecomm/
+d9c8023 Automatic translation import
+
+   * packages/services/Telephony/
+1b90f68 Automatic translation import
+
+   * packages/services/ThemeManagerService/
+0193092 Automatic translation import
 
 ====================
-     10-14-2016
+     12-18-2016
 ====================
 
 
-   * cts/
-b341afd Merge "Revert "DO NOT MERGE security: Test mediaserver crash against an invalid MIDI file"" into marshmallow-cts-dev
-6db5ace Merge "Add /dev/pmsg0 to CHAR_DEV_EXCEPTIONS" into marshmallow-cts-dev
-9e08614 Merge "PacketReflector: Ignore IPv6 flow labels in ICMPv6 test" into marshmallow-cts-dev
-5360665 Merge "Revert "Tests migration feature meta tags to Conditionalized Tests."" into marshmallow-cts-dev
-323b160 Revert "Tests migration feature meta tags to Conditionalized Tests."
-871aff1 Merge "Tests migration feature meta tags to Conditionalized Tests." into marshmallow-cts-dev
+   * packages/apps/TvSettings/
+a18343f Merge "Automatic translation import" into cm-13.0
 
-   * frameworks/opt/telephony/
-440f988 Don't send MMS reception notices to the wap push handler
+====================
+     12-17-2016
+====================
 
+
+   * hardware/qcom/fm/
+628cfc3 Automatic translation import
+
+   * packages/apps/AudioFX/
+abb28b4 Automatic translation import
+
+   * packages/apps/Bluetooth/
+2bd0e35 Automatic translation import
+
+   * packages/apps/Browser/
+92689bd Automatic translation import
+
+   * packages/apps/CMBugReport/
+a93f6ff Automatic translation import
+
+   * packages/apps/CMFileManager/
+72d449b Automatic translation import
+
+   * packages/apps/Calendar/
+c8d466f Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+076843c Automatic translation import
+
+   * packages/apps/Contacts/
+915711a Automatic translation import
+
+   * packages/apps/ContactsCommon/
+50af90d Automatic translation import
+
+   * packages/apps/DeskClock/
+7ac4a3f Automatic translation import
+
+   * packages/apps/Dialer/
+5293476 Automatic translation import
+
+   * packages/apps/Gello/
+83d107a Automatic translation import
+
+   * packages/apps/InCallUI/
+947d72d Automatic translation import
+
+   * packages/apps/Messaging/
+5c6b3d6 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+42895b2 Automatic translation import
+
+   * packages/apps/Profiles/
+943cbe5 Automatic translation import
+
+   * packages/apps/Screencast/
+6f025ad Automatic translation import
+
+   * packages/apps/SetupWizard/
+694b0dd Automatic translation import
+
+   * packages/apps/Snap/
+ccb7efa Automatic translation import
+
+   * packages/apps/TvSettings/
+0f06b37 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+8299a4c Automatic translation import
+
+   * packages/services/Telephony/
+ec629d2 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+4b67f7b Automatic translation import
+
+   * vendor/cmsdk/
+19cd1b9 Automatic translation import
+
+====================
+     12-16-2016
+====================
+
+
+   * hardware/qcom/fm/
+6989aac Automatic translation import
+
+   * packages/apps/AudioFX/
+8285a81 Automatic translation import
+
+   * packages/apps/CMFileManager/
+b62f584 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+b02c253 Automatic translation import
+
+   * packages/apps/Dialer/
+473ec1f Automatic translation import
+
+   * packages/apps/Gello/
+7a59085 Automatic translation import
+
+   * packages/apps/InCallUI/
+3235596 Automatic translation import
+
+   * packages/apps/Messaging/
+f900fd2 Automatic translation import
+
+   * packages/apps/SetupWizard/
+bb68c41 Automatic translation import
+
+   * packages/apps/Snap/
+3266dc7 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+2924a0f Automatic translation import
+
+   * packages/apps/ThemeChooser/
+d6a19db Automatic translation import
+
+   * packages/apps/TvSettings/
+96aa22a Automatic translation import
+
+   * packages/services/CMAudioService/
+7358a5d Automatic translation import
+
+   * packages/services/Telephony/
+4737ab7 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+d84b3fd Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+51da92a Automatic translation import
+
+   * vendor/cmsdk/
+db4e449 Automatic translation import
